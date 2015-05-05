@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rake', '10.0.4'
+gem 'rake', '10.4.2'
 gem 'rails', '3.0.12'
 gem 'gravatar_image_tag', '1.0.0.pre2'
 gem 'will_paginate', '3.0.pre2'
@@ -18,4 +18,5 @@ group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.1'
   gem 'factory_girl_rails', '1.0'
+  gem 'minitest', '4.3.2'
 end
