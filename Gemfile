@@ -20,3 +20,4 @@ group :test do
   gem 'factory_girl_rails', '1.0'
   gem 'minitest', '4.3.2'
 end
+
