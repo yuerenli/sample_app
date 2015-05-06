@@ -10,6 +10,7 @@ describe "Microposts" do
     click_button
   end
 
+=begin
   describe "creation" do
 
     describe "failure" do
@@ -36,4 +37,5 @@ describe "Microposts" do
       end
     end
   end
+#=end
 end

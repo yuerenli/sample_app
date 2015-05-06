@@ -15,6 +15,7 @@ describe MicropostsController do
     end
   end
   
+=begin
   describe "POST 'create'" do
     
     before(:each) do
@@ -62,6 +63,7 @@ describe MicropostsController do
       end
     end
   end
+=end
 
   describe "DELETE 'destroy'" do
 

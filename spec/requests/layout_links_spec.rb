@@ -2,6 +2,7 @@ require 'spec_helper'
 
 describe "LayoutLinks" do
   
+=begin 
   it "should have a Home page at '/'" do
     get '/'
     response.should have_selector('title', :content => "Home")
@@ -54,8 +55,11 @@ describe "LayoutLinks" do
     end
   end
   
+=end
+
   describe "when signed in" do
-    
+
+=begin
     before(:each) do
       @user = Factory(:user)
       visit signin_path
@@ -87,5 +91,6 @@ describe "LayoutLinks" do
       response.should have_selector("a", :href => users_path,
                                          :content => "Users")
     end
+=end
   end
 end
